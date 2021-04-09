@@ -152,7 +152,7 @@ fo_list는 아직 닫히지 않은 괄호를 3번 만났으므로, fo_list의 �
 )를 만나면 fo_list의 가장 마지막 항목을 pop하고, 계산하여 return 한다음 fo_list의 마지막 리스트에 값을 대입 해 줍니다.
 
 ``` python
- fo_lsit[-1].append(calculate(fo_list[-1].pop()))
+ fo_lit[-1].append(calculate(fo_list[-1].pop()))
 ```
 
 calculate 함수는 수식을 계산해주는 사칙연산 함수 입니다.
@@ -196,5 +196,6 @@ fo_listt = [[9, *, 4]]
 
 36을 리턴합니다.
 
+-----------------------------------------------
 
 ### 유효숫자 계산 ###
